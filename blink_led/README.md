@@ -12,7 +12,7 @@ The program toggles the LED on PORTB0, turning it on for 1 second, then off for 
 
 ## Links to Code
 
-- [Assembly Code Version](./assembly/blink_led.asm)
+- [Assembly Code Version](./assembly/blink_led.s)
 - [C Code Version](./c/blink_led.c)
 
 ## Steps to Compile
