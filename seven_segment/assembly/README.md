@@ -4,13 +4,13 @@
 To start, you need to assemble the Assembly code into an object file (`.o`). This step converts your Assembly code into machine-readable code.
 
 ```bash
-avr-as -mmcu=atmega8 -o seven_segment.o seven_segment.asm
+avr-as -mmcu=atmega8 -o seven_segment.o seven_segment.s
 ```
 
 ### Explanation:
 - `-mmcu=atmega8`: Specifies that the target microcontroller is the ATmega8.
 - `-o seven_segment.o`: The output object file name (`seven_segment.o`).
-- `seven_segment.asm`: Your Assembly source file.
+- `seven_segment.s`: Your Assembly source file.
 
 ### Step 2: Link the Object File to Create the ELF File
 After assembling the Assembly code into an object file, link it to create the final executable ELF (Executable and Linkable Format) file.

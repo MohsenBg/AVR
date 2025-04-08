@@ -47,7 +47,7 @@ loop:
 
     out PORTB, r21      ; Output to PORTB (7-segment display)
 
-    rcall delay_1sec    ; Wait 1 second
+    rcall delay_50ms    ; Wait 1 second
     inc r20            
     rjmp loop          
 
@@ -55,7 +55,7 @@ loop:
 ; Subroutine: delay_1sec
 ; Description: Creates a delay of approximately 1 second at 8MHz
 ; ***********************************************
-delay_1sec:
+delay_50ms:
     push r17
     push r18
     push r19

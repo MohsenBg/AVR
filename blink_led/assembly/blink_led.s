@@ -32,13 +32,13 @@ blink_loop:
     sbi PORTB, LED_PIN
     
     ; Delay for approximately 1 second
-    rcall delay_1sec
+    rcall delay_50ms
     
     ; Turn LED OFF (clear PORTB0 low)
     cbi PORTB, LED_PIN
     
     ; Delay for approximately 1 second
-    rcall delay_1sec
+    rcall delay_50ms
     
     ; Repeat the blinking process
     rjmp blink_loop
@@ -47,7 +47,7 @@ blink_loop:
 ; Subroutine: delay_1sec
 ; Description: Creates a delay of approximately 1 second at 8MHz
 ; ***********************************************
-delay_1sec:
+delay_50ms:
     ldi r17, DELAY_OUTER    ; Load outer loop counter
     
 delay_outer:
