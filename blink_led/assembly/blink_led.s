@@ -32,7 +32,7 @@ blink_loop:
     sbi PORTB, LED_PIN
     
     ; Delay for approximately 1 second
-    rcall delay_50ms
+    rcall delay_1sec
     
     ; Turn LED OFF (clear PORTB0 low)
     cbi PORTB, LED_PIN
@@ -68,3 +68,4 @@ delay_inner:
     brne delay_outer        ; If not zero, loop back
     
     ret                     
+    

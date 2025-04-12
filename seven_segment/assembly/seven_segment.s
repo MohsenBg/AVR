@@ -38,7 +38,10 @@ main:
 
 loop:
     cpi r20, 10
-    breq main      
+    breq main  
+
+    push r30 ; Save ZL
+    push r31 ; Save ZH
 
     ; Load segment data for current index
     add r30, r20
@@ -47,6 +50,9 @@ loop:
 
     out PORTB, r21      ; Output to PORTB (7-segment display)
 
+    pop r31 ; Restore ZH
+    pop r30 ; Restore ZL
+    
     rcall delay_1sec    ; Wait 1 second
     inc r20            
     rjmp loop          
