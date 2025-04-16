@@ -15,3 +15,5 @@ My collection of AVR code that I've learned.
 - **[key_press_counter](./key_press_counter)**    
   Counts key presses using an input button.  
   Showcases input handling and external device interaction.
+
+- **[LCD16x2](./lcd16x2)**
