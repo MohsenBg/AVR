@@ -11,9 +11,14 @@ A personal collection of AVR microcontroller projects I’ve worked on and learn
   Uses a seven-segment display to increment numbers over time.  
   Demonstrates control of display hardware.
 
-- **[key_press_counter](./key_press_counter)**  
-  Counts how many times a button is pressed.  
-  A practical example of input handling.
+- **[key_press_counter](./key_press_counter)**    
+  Counts key presses using an input button.  
+  Showcases input handling and external device interaction.
 
-- **[LCD16x2](./lcd16x2)**  
-  
+- **[lcd16x2](./lcd16x2)**    
+
+- **[keypad](./keypad)**    
+
+- **[keypad_lcd16x2](./keypad_lcd16x2)**    
+
+
