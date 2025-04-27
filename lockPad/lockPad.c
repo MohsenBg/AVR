@@ -2,11 +2,11 @@
 #define F_CPU 8000000UL
 #include <avr/io.h>
 #include <util/delay.h>
-#include <string.h>‍‍‍
+#include <string.h>
 #include <avr/interrupt.h>
 
 // Pin definitions
-#define LCD_PORT PORTC‍
+#define LCD_PORT PORTC
 #define LCD_DDR DDRC
 #define LCD_RS 0
 #define LCD_EN 1
