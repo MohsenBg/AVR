@@ -21,5 +21,5 @@ A personal collection of AVR microcontroller projects I’ve worked on and learn
 - **[keypad_lcd16x2](./keypad_lcd16x2)**  
   Combines keypad input with 16x2 LCD output for interactive projects.
 
-- **[lockpad](./lockpad)**  
+- **[lockpad](./lockPad)**  
   A simple digital lock implementation using a keypad and microcontroller logic.
