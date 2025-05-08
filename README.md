@@ -23,3 +23,6 @@ A personal collection of AVR microcontroller projects I’ve worked on and learn
 
 - **[lockpad](./lockPad)**  
   A simple digital lock implementation using a keypad and microcontroller logic.
+
+- **[lockpad](./lockPad)**  
+ 
